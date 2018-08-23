@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+
+    <meta charset="utf-8">
+    <title>People - The Stanford Natural Language Processing Group </title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+
+
+
+    <!-- Bootstrap styles -->
+    <link rel="stylesheet" href="../static/css/vendor/bootstrap/bootstrap.css" tppabs="https://nlp.stanford.edu/static/css/vendor/bootstrap/bootstrap.css">
+
+    <!-- Glyphicons -->
+    <link rel="stylesheet" href="../static/css/vendor/glyphicons/glyphicons.css" tppabs="https://nlp.stanford.edu/static/css/vendor/glyphicons/glyphicons.css">
+    <link rel="stylesheet" href="../static/css/vendor/glyphicons/filetypes.css" tppabs="https://nlp.stanford.edu/static/css/vendor/glyphicons/filetypes.css">
+    <link rel="stylesheet" href="../static/css/vendor/glyphicons/social.css" tppabs="https://nlp.stanford.edu/static/css/vendor/glyphicons/social.css">
+
+    <!-- Google Webfonts -->
+    <link href="../../fonts.googleapis.com/css-family=Open+Sans-400,700,600.css" tppabs="https://fonts.googleapis.com/css?family=Open+Sans:400,700,600" rel='stylesheet' type='text/css'>
+
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="../../maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" tppabs="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="../static/css/bootstrap-markdown.min.css" tppabs="https://nlp.stanford.edu/static/css/bootstrap-markdown.min.css" type="text/css">
+
+    <!-- LayerSlider styles -->
+    <link rel="stylesheet" href="../static/css/vendor/layerslider/layerslider.css" tppabs="https://nlp.stanford.edu/static/css/vendor/layerslider/layerslider.css" type="text/css">
+
+    <!-- Grove Styles (switch for different color schemes, e.g. "styles-cleanblue.css") -->
+    <link rel="stylesheet" href="../static/css/styles-cleanred.css" tppabs="https://nlp.stanford.edu/static/css/styles-cleanred.css" id="grove-styles">
+
+    <link rel="stylesheet" href="../../cdn.datatables.net/1.10.7/css/jquery.dataTables.min.css" tppabs="https://cdn.datatables.net/1.10.7/css/jquery.dataTables.min.css" type="text/css">
+
+    <!-- table highlighting -->
+    <!--<link rel="stylesheet" href="//cdn.datatables.net/plug-ins/1.10.7/features/searchHighlight/dataTables.searchHighlight.css">-->
+    
+    <!-- site-wide custom css -->
+    <link rel="stylesheet" href="../static/css/nlp.css" tppabs="https://nlp.stanford.edu/static/css/nlp.css" id="nlp-styles"> 
+
+    
+
+    <!--[if lt IE 9]>
+        <link rel="stylesheet" href="css/ie8.css" tppabs="https://nlp.stanford.edu/people/css/ie8.css">        
+        <script src="js/vendor/google/html5-3.6-respond-1.1.0.min.js" tppabs="https://nlp.stanford.edu/people/js/vendor/google/html5-3.6-respond-1.1.0.min.js"></script>
+    <![endif]-->
+
+    <script src="../../ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" tppabs="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="static/js/vendor/jquery/jquery-1.9.1.min.js"/*tpa=https://nlp.stanford.edu/people/static/js/vendor/jquery/jquery-1.9.1.min.js*/><\/script>')</script>
+    <!-- jQuery with jQuery Easing, and jQuery Transit JS -->
+
+    <!-- LayerSlider from Kreatura Media with Transitions -->
+    <script src="../static/js/vendor/layerslider/greensock.js" tppabs="https://nlp.stanford.edu/static/js/vendor/layerslider/greensock.js" type="text/javascript"></script>
+    <script src="../static/js/vendor/layerslider/layerslider.transitions.js" tppabs="https://nlp.stanford.edu/static/js/vendor/layerslider/layerslider.transitions.js" type="text/javascript"></script>
+    <script src="../static/js/vendor/layerslider/layerslider.kreaturamedia.jquery.js" tppabs="https://nlp.stanford.edu/static/js/vendor/layerslider/layerslider.kreaturamedia.jquery.js" type="text/javascript"></script>
+
+    <!-- Bootstrap Markdown for Blog editing-->
+    <script src="../static/js/markdown.js" tppabs="https://nlp.stanford.edu/static/js/markdown.js" type="text/javascript"></script>
+    <script src="../static/js/to-markdown.js" tppabs="https://nlp.stanford.edu/static/js/to-markdown.js" type="text/javascript"></script>
+    <script src="../static/js/bootstrap-markdown.js" tppabs="https://nlp.stanford.edu/static/js/bootstrap-markdown.js" type="text/javascript"></script>
+
+    <!-- Grove Layerslider initiation script -->
+    <script src="../static/js/grove-slider.js" tppabs="https://nlp.stanford.edu/static/js/grove-slider.js" type="text/javascript"></script>
+
+    <!-- DataTables.net for publications -->
+    <script src="../../cdn.datatables.net/1.10.7/js/jquery.dataTables.min.js" tppabs="https://cdn.datatables.net/1.10.7/js/jquery.dataTables.min.js"></script>
+
+    <!-- highlighting for tables -->
+    <script src="../../cdn.datatables.net/plug-ins/1.10.7/features/searchHighlight/dataTables.searchHighlight.min.js" tppabs="https://cdn.datatables.net/plug-ins/1.10.7/features/searchHighlight/dataTables.searchHighlight.min.js"></script>    
+    <script src="../../bartaz.github.io/sandbox.js/jquery.highlight.js" tppabs="https://bartaz.github.io/sandbox.js/jquery.highlight.js"></script>
+
+    <!-- fancy select boxes -->
+    <link href="../../cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/css/select2.min.css" tppabs="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/css/select2.min.css" rel="stylesheet" />
+    <script src="../../cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/js/select2.min.js" tppabs="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/js/select2.min.js"></script>
+    
+</head> 
+<body>
+  
+  <!-- navigation -->
+  <header>
+    <nav class="navbar navbar-default grove-navbar">
+      <div class="container">
+	<div class="navbar-header">
+          <a href="#" class="grove-toggle collapsed" data-toggle="collapse" data-target=".grove-nav">   <i class="glyphicons show_lines"></i>  </a>
+          <img class="navbar-brand navbar-left hidden-xs" src="../static/img/logos/nlp-logo-small.gif" tppabs="https://nlp.stanford.edu/static/img/logos/nlp-logo-small.gif" alt="">
+          <a class="navbar-brand navbar-left" href="../index.htm" tppabs="https://nlp.stanford.edu/"><h3 class="hidden-xs">The Stanford Natural Language Processing Group</h3><h3 class="hidden-sm hidden-md hidden-lg hidden-xl">The Stanford NLP Group</h3></a>
+	</div>
+	
+	<div class="navbar-collapse grove-nav collapse">
+          <ul class="nav navbar-nav">
+            <li>
+              <a href="../people/index.htm" tppabs="https://nlp.stanford.edu/people/">people</a>
+            </li>
+            <li>
+              <a href="../pubs/index.htm" tppabs="https://nlp.stanford.edu/pubs/">publications</a>
+            </li>
+            <li>
+              <a href="index.htm" tppabs="https://nlp.stanford.edu/blog/">news</a>
+            </li>
+          </ul>
+	</div><!-- /.navbar-collapse -->
+      </div>
+    </nav>
+  </header>
+  
+
+
+  <div class="widewrapper">
+    <div id="body_content">	
+      
+
+			<div class="widewrapper pagetitle">
+				<div class="container">
+					<h1>Research Blog</h1>
+			
+			
+				</div>
+			</div>
+			<div class="widewrapper weak-highlight">
+				<div class="container content">
+					<div class="row">
+						<div class="col-sm-10">
+				<section id="blog-posts">
+				
+				
+				<article class="blog-post">
+					<header>
+						<h2 class="title">
+							<a href="javascript:if(confirm(%27https://nlp.stanford.edu/blog/a-new-multi-turn-multi-domain-task-oriented-dialogue-dataset/  \n\nThis file was not retrieved by Teleport Ultra, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27https://nlp.stanford.edu/blog/a-new-multi-turn-multi-domain-task-oriented-dialogue-dataset/%27" tppabs="https://nlp.stanford.edu/blog/a-new-multi-turn-multi-domain-task-oriented-dialogue-dataset/">
+					A New Multi-Turn, Multi-Domain, Task-Oriented Dialogue Dataset
+							</a>
+						</h2>
+						<!--
+						<div class="comment-count">
+						<a> 
+							<span># Comments</span>
+							<i class="glyphicons conversation"></i>
+						</a>
+						</div>-->
+					</header>  
+					<!--<img class="leadimage img-responsive" src="/static/img/slides/networksemantics.png">-->
+					<p>Data scarcity is a major issue in dialogue research. To help alleviate this problem, we release a new dataset of 3,000 dialogues in the virtual car-assistant space. The dataset covers three distinct domains: calendar scheduling, weather information retrieval, and point-of-interest navigation.</p>
+					<p>Posted on 07/03/2017 by <a href="javascript:if(confirm(%27http://www.mihaileric.com/  \n\nThis file was not retrieved by Teleport Ultra, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.mihaileric.com/%27" tppabs="http://www.mihaileric.com/"> Mihail Eric </a></p>
+			
+			
+				</article>
+				<hr>
+				<br><br>
+				
+				
+				<article class="blog-post">
+					<header>
+						<h2 class="title">
+							<a href="javascript:if(confirm(%27https://nlp.stanford.edu/blog/cs224n-competition-on-the-stanford-question-answering-dataset-with-codalab/  \n\nThis file was not retrieved by Teleport Ultra, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27https://nlp.stanford.edu/blog/cs224n-competition-on-the-stanford-question-answering-dataset-with-codalab/%27" tppabs="https://nlp.stanford.edu/blog/cs224n-competition-on-the-stanford-question-answering-dataset-with-codalab/">
+					CS224n Competition on The Stanford Question Answering Dataset with CodaLab
+							</a>
+						</h2>
+						<!--
+						<div class="comment-count">
+						<a> 
+							<span># Comments</span>
+							<i class="glyphicons conversation"></i>
+						</a>
+						</div>-->
+					</header>  
+					<!--<img class="leadimage img-responsive" src="/static/img/slides/networksemantics.png">-->
+					<p>162 student teams compete in a tight, four-week expedition to apply their knowledge of deep learning for natural language processing to a real-world challenge task: SQuAD.</p>
+					<p>Posted on 04/27/2017 by <a href="javascript:if(confirm(%27http://pranavrajpurkar.com/  \n\nThis file was not retrieved by Teleport Ultra, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?%27))window.location=%27http://pranavrajpurkar.com/%27" tppabs="http://pranavrajpurkar.com/">Pranav Rajpurkar</a>, <a href="javascript:if(confirm(%27http://sckoo.net/  \n\nThis file was not retrieved by Teleport Ultra, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?%27))window.location=%27http://sckoo.net/%27" tppabs="http://sckoo.net/">Stephen Koo</a>, and <a href="javascript:if(confirm(%27https://cs.stanford.edu/~pliang/  \n\nThis file was not retrieved by Teleport Ultra, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?%27))window.location=%27https://cs.stanford.edu/~pliang/%27" tppabs="https://cs.stanford.edu/~pliang/">Percy Liang</a></p>
+			
+			
+				</article>
+				<hr>
+				<br><br>
+				
+				
+				<article class="blog-post">
+					<header>
+						<h2 class="title">
+							<a href="javascript:if(confirm(%27https://nlp.stanford.edu/blog/interactive-language-learning/  \n\nThis file was not retrieved by Teleport Ultra, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27https://nlp.stanford.edu/blog/interactive-language-learning/%27" tppabs="https://nlp.stanford.edu/blog/interactive-language-learning/">
+					Interactive Language Learning
+							</a>
+						</h2>
+						<!--
+						<div class="comment-count">
+						<a> 
+							<span># Comments</span>
+							<i class="glyphicons conversation"></i>
+						</a>
+						</div>-->
+					</header>  
+					<!--<img class="leadimage img-responsive" src="/static/img/slides/networksemantics.png">-->
+					<p>We introduce a new framework for learning natural language through interaction in two different domains: a blocks world and a calendar setting. We discuss recent advancements and preliminary empirical results.</p>
+					<p>Posted on 12/14/2016 by Nadav Lidor, Sida I. Wang</p>
+			
+			
+				</article>
+				<hr>
+				<br><br>
+				
+				
+				<article class="blog-post">
+					<header>
+						<h2 class="title">
+							<a href="javascript:if(confirm(%27https://nlp.stanford.edu/blog/in-their-own-words-the-2016-graduates-of-the-stanford-nlp-group/  \n\nThis file was not retrieved by Teleport Ultra, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27https://nlp.stanford.edu/blog/in-their-own-words-the-2016-graduates-of-the-stanford-nlp-group/%27" tppabs="https://nlp.stanford.edu/blog/in-their-own-words-the-2016-graduates-of-the-stanford-nlp-group/">
+					In Their Own Words: The 2016 Graduates of the Stanford NLP Group
+							</a>
+						</h2>
+						<!--
+						<div class="comment-count">
+						<a> 
+							<span># Comments</span>
+							<i class="glyphicons conversation"></i>
+						</a>
+						</div>-->
+					</header>  
+					<!--<img class="leadimage img-responsive" src="/static/img/slides/networksemantics.png">-->
+					<p>This year we have a true bumper crop of graduates from the NLP Group - ten people! We&#39;re sad to see them go but excited for all the wonderful things they&#39;re off to do. Thanks to them all for being a part of the group and for their amazing contributions! We asked all the graduates to give us a few words about what they did here and where they&#39;re headed - check it out!</p>
+					<p>Posted on 07/06/2016 by Stanford NLP</p>
+			
+			
+				</article>
+				<hr>
+				<br><br>
+				
+				
+				<article class="blog-post">
+					<header>
+						<h2 class="title">
+							<a href="javascript:if(confirm(%27https://nlp.stanford.edu/blog/hybrid-tree-sequence-neural-networks-with-spinn/  \n\nThis file was not retrieved by Teleport Ultra, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27https://nlp.stanford.edu/blog/hybrid-tree-sequence-neural-networks-with-spinn/%27" tppabs="https://nlp.stanford.edu/blog/hybrid-tree-sequence-neural-networks-with-spinn/">
+					Hybrid tree-sequence neural networks with SPINN
+							</a>
+						</h2>
+						<!--
+						<div class="comment-count">
+						<a> 
+							<span># Comments</span>
+							<i class="glyphicons conversation"></i>
+						</a>
+						</div>-->
+					</header>  
+					<!--<img class="leadimage img-responsive" src="/static/img/slides/networksemantics.png">-->
+					<p>The SPINN model, recently published by a team from the NLP Group, is a strong neural network model for language understanding. In this post I analyze SPINN as a hybrid tree-sequence model, merging recurrent and recursive neural networks into a single paradigm.</p>
+					<p>Posted on 06/23/2016 by Jon Gauthier</p>
+			
+			
+				</article>
+				<hr>
+				<br><br>
+				
+				
+				<article class="blog-post">
+					<header>
+						<h2 class="title">
+							<a href="javascript:if(confirm(%27https://nlp.stanford.edu/blog/how-to-help-someone-feel-better-nlp-for-mental-health/  \n\nThis file was not retrieved by Teleport Ultra, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27https://nlp.stanford.edu/blog/how-to-help-someone-feel-better-nlp-for-mental-health/%27" tppabs="https://nlp.stanford.edu/blog/how-to-help-someone-feel-better-nlp-for-mental-health/">
+					How to help someone feel better: NLP for mental health
+							</a>
+						</h2>
+						<!--
+						<div class="comment-count">
+						<a> 
+							<span># Comments</span>
+							<i class="glyphicons conversation"></i>
+						</a>
+						</div>-->
+					</header>  
+					<!--<img class="leadimage img-responsive" src="/static/img/slides/networksemantics.png">-->
+					<p>We apply NLP to mental health by doing a large-scale analysis of text-message-based crisis counseling conversations. We develop a set of discourse analysis methods to measure how various linguistic aspects of the conversations are correlated with conversation outcomes. Using these, we discover actionable conversation strategies that are associated with successful counseling.</p>
+					<p>Posted on 05/25/2016 by <a href="javascript:if(confirm(%27http://cs.stanford.edu/people/kevclark/  \n\nThis file was not retrieved by Teleport Ultra, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?%27))window.location=%27http://cs.stanford.edu/people/kevclark/%27" tppabs="http://cs.stanford.edu/people/kevclark/">Kevin Clark</a> and <a href="javascript:if(confirm(%27http://www.timalthoff.com/  \n\nThis file was not retrieved by Teleport Ultra, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.timalthoff.com/%27" tppabs="http://www.timalthoff.com/">Tim Althoff</a></p>
+			
+			
+				</article>
+				<hr>
+				<br><br>
+				
+				
+				<article class="blog-post">
+					<header>
+						<h2 class="title">
+							<a href="javascript:if(confirm(%27https://nlp.stanford.edu/blog/maximum-likelihood-decoding-with-rnns-the-good-the-bad-and-the-ugly/  \n\nThis file was not retrieved by Teleport Ultra, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27https://nlp.stanford.edu/blog/maximum-likelihood-decoding-with-rnns-the-good-the-bad-and-the-ugly/%27" tppabs="https://nlp.stanford.edu/blog/maximum-likelihood-decoding-with-rnns-the-good-the-bad-and-the-ugly/">
+					Maximum Likelihood Decoding with RNNs - the good, the bad, and the ugly
+							</a>
+						</h2>
+						<!--
+						<div class="comment-count">
+						<a> 
+							<span># Comments</span>
+							<i class="glyphicons conversation"></i>
+						</a>
+						</div>-->
+					</header>  
+					<!--<img class="leadimage img-responsive" src="/static/img/slides/networksemantics.png">-->
+					<p>We explore some subtleties of generating text from recurrent nets. We identify semantic distortions introduced when using maximum likelihood decoding, and introduce semantic temperature sampling as a tool to understand and control these distortions.</p>
+					<p>Posted on 04/26/2016 by <a href="javascript:if(confirm(%27http://russellsstewart.com/  \n\nThis file was not retrieved by Teleport Ultra, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?%27))window.location=%27http://russellsstewart.com/%27" tppabs="http://russellsstewart.com/">Russell Stewart</a></p>
+			
+			
+				</article>
+				<hr>
+				<br><br>
+				
+				
+				<article class="blog-post">
+					<header>
+						<h2 class="title">
+							<a href="javascript:if(confirm(%27https://nlp.stanford.edu/blog/wikitablequestions-a-complex-real-world-question-understanding-dataset/  \n\nThis file was not retrieved by Teleport Ultra, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27https://nlp.stanford.edu/blog/wikitablequestions-a-complex-real-world-question-understanding-dataset/%27" tppabs="https://nlp.stanford.edu/blog/wikitablequestions-a-complex-real-world-question-understanding-dataset/">
+					WikiTableQuestions: a Complex Real-World Question Understanding Dataset
+							</a>
+						</h2>
+						<!--
+						<div class="comment-count">
+						<a> 
+							<span># Comments</span>
+							<i class="glyphicons conversation"></i>
+						</a>
+						</div>-->
+					</header>  
+					<!--<img class="leadimage img-responsive" src="/static/img/slides/networksemantics.png">-->
+					<p>To truly understand natural language questions, an AI system has to grapple with the diversity of question topics (breadth) and the linguistic complexity of the questions (depth). We are releasing WikiTableQuestions, a dataset of complex questions on real-world tables, which addresses both challenges of breadth and depth.</p>
+					<p>Posted on 02/11/2016 by <a href="javascript:if(confirm(%27http://cs.stanford.edu/~ppasupat/  \n\nThis file was not retrieved by Teleport Ultra, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?%27))window.location=%27http://cs.stanford.edu/~ppasupat/%27" tppabs="http://cs.stanford.edu/~ppasupat/">Ice Pasupat</a></p>
+			
+			
+				</article>
+				<hr>
+				<br><br>
+				
+				
+				<article class="blog-post">
+					<header>
+						<h2 class="title">
+							<a href="javascript:if(confirm(%27https://nlp.stanford.edu/blog/the-stanford-nli-corpus-revisited/  \n\nThis file was not retrieved by Teleport Ultra, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27https://nlp.stanford.edu/blog/the-stanford-nli-corpus-revisited/%27" tppabs="https://nlp.stanford.edu/blog/the-stanford-nli-corpus-revisited/">
+					The Stanford NLI Corpus Revisited
+							</a>
+						</h2>
+						<!--
+						<div class="comment-count">
+						<a> 
+							<span># Comments</span>
+							<i class="glyphicons conversation"></i>
+						</a>
+						</div>-->
+					</header>  
+					<!--<img class="leadimage img-responsive" src="/static/img/slides/networksemantics.png">-->
+					<p>Last September at EMNLP 2015, we released the Stanford Natural Language Inference (SNLI) Corpus. We&#39;re still excitedly working to build bigger and better machine learning models to use it to its full potential, and we sense that we&#39;re not alone, so we&#39;re using the launch of the lab&#39;s new website to share a bit of what we&#39;ve learned about the corpus over the last few months.</p>
+					<p>Posted on 01/25/2016 by <a href="javascript:if(confirm(%27http://stanford.edu/~sbowman/  \n\nThis file was not retrieved by Teleport Ultra, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?%27))window.location=%27http://stanford.edu/~sbowman/%27" tppabs="http://stanford.edu/~sbowman/">Sam Bowman</a></p>
+			
+			
+				</article>
+				<hr>
+				<br><br>
+				
+				
+				<article class="blog-post">
+					<header>
+						<h2 class="title">
+							<a href="javascript:if(confirm(%27https://nlp.stanford.edu/blog/welcome-to-the-new-stanford-nlp-research-blog/  \n\nThis file was not retrieved by Teleport Ultra, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27https://nlp.stanford.edu/blog/welcome-to-the-new-stanford-nlp-research-blog/%27" tppabs="https://nlp.stanford.edu/blog/welcome-to-the-new-stanford-nlp-research-blog/">
+					Welcome to the new Stanford NLP Research Blog
+							</a>
+						</h2>
+						<!--
+						<div class="comment-count">
+						<a> 
+							<span># Comments</span>
+							<i class="glyphicons conversation"></i>
+						</a>
+						</div>-->
+					</header>  
+					<!--<img class="leadimage img-responsive" src="/static/img/slides/networksemantics.png">-->
+					<p>This page will hold the research blog for the Stanford Natural Language Processing group. Here group members will post descriptions of their research, tutorials, and other interesting tidbits. No posts yet, but stay tuned!</p>
+					<p>Posted on 01/14/2016 by <a href="javascript:if(confirm(%27http://nlp.stanford.edu/robvoigt  \n\nThis file was not retrieved by Teleport Ultra, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://nlp.stanford.edu/robvoigt%27" tppabs="http://nlp.stanford.edu/robvoigt">Rob Voigt</a></p>
+			
+			
+				</article>
+				<hr>
+				<br><br>
+				
+				</section>
+						</div>
+			
+						<div class="col-sm-2 blog-sidecolumn">
+				<p><a href="javascript:if(confirm(%27http://feeds.feedburner.com/StanfordNLPResearchBlog  \n\nThis file was not retrieved by Teleport Ultra, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?%27))window.location=%27http://feeds.feedburner.com/StanfordNLPResearchBlog%27" tppabs="http://feeds.feedburner.com/StanfordNLPResearchBlog" rel="alternate" type="application/rss+xml"><img src="../../feedburner.google.com/fb/images/pub/feed-icon32x32.png" tppabs="https://feedburner.google.com/fb/images/pub/feed-icon32x32.png" alt="" style="vertical-align:middle;border:0"/></a>&nbsp;<a href="javascript:if(confirm(%27http://feeds.feedburner.com/StanfordNLPResearchBlog  \n\nThis file was not retrieved by Teleport Ultra, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?%27))window.location=%27http://feeds.feedburner.com/StanfordNLPResearchBlog%27" tppabs="http://feeds.feedburner.com/StanfordNLPResearchBlog" rel="alternate" type="application/rss+xml">Subscribe</a></p>
+			
+				
+				<hr>
+				<!--
+				<div class="widget searchbox">
+					<form action="#" id="search" class="search-form" method="get" accept-charset="utf-8">
+									<input class="form-control input-lg" type="search" name="search" value="" placeholder="Search">
+								</form>
+				</div>
+				<div class="widget">
+								<h3>Lorem ipsum</h3>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+									tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+									quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+									consequat. 
+								</p>
+							</div>
+				<div class="widget">
+								<h3>Recent Posts</h3>
+								<ul class="grove-list">
+									<li><a href="#">Why lorem ipsum beats bacon ipsum</a></li>
+									<li><a href="#">Why lorem ipsum beats bacon ipsum</a></li>
+									<li><a href="#">Why lorem ipsum beats bacon ipsum</a></li>
+									<li><a href="#">Why lorem ipsum beats bacon ipsum</a></li>
+									<li><a href="#">Why lorem ipsum beats bacon ipsum</a></li>
+									<li><a href="#">Why lorem ipsum beats bacon ipsum</a></li>
+								</ul>
+							</div>
+						</aside> 
+					</div>-->
+				</div>
+			</div>
+				
+			
+					</div>
+				</div>
+
+
+
+</div>
+
+
+    <!--
+    <div class="widewrapper strong-highlight">
+      <div class="container calltoaction">
+        <span>Click on this button to offer us high-paying and world-changing jobs.</span>
+        <a href="#" class="btn btn-grove-one btn-xlg btn-bold">IT'S THE RIGHT CHOICE</a>
+      </div>
+    </div>
+    -->
+
+
+    </div>
+
+
+  <footer class="widewrapper footer">
+  <div class="container">
+    
+    <div class="row footer">
+      
+      <div class="col-sm-3">
+        <h4>Stanford NLP Group</h4>
+	Gates Computer Science Building<br>
+	353 Serra Mall<br>
+	Stanford, CA 94305-9020<br>
+	<a href="javascript:if(confirm(%27http://forum.stanford.edu/visitors/directions/gates.php  \n\nThis file was not retrieved by Teleport Ultra, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?%27))window.location=%27http://forum.stanford.edu/visitors/directions/gates.php%27" tppabs="http://forum.stanford.edu/visitors/directions/gates.php">Directions and Parking</a>
+      </div>
+      
+      
+      <div class="col-sm-3">
+        <div class="indent30">
+          <h4>Affiliated Groups</h4>
+          <ul class="grove-list">
+            <li><a href="javascript:if(confirm(%27http://ai.stanford.edu/  \n\nThis file was not retrieved by Teleport Ultra, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?%27))window.location=%27http://ai.stanford.edu/%27" tppabs="http://ai.stanford.edu/">Stanford AI Lab</a></li>
+            <li><a href="javascript:if(confirm(%27http://infolab.stanford.edu/  \n\nThis file was not retrieved by Teleport Ultra, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?%27))window.location=%27http://infolab.stanford.edu/%27" tppabs="http://infolab.stanford.edu/">Stanford InfoLab</a></li>
+            <li><a href="javascript:if(confirm(%27https://www-csli.stanford.edu/  \n\nThis file was not retrieved by Teleport Ultra, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?%27))window.location=%27https://www-csli.stanford.edu/%27" tppabs="https://www-csli.stanford.edu/">CSLI</a></li>
+          </ul>
+        </div>
+      </div>
+      
+      <!--
+	 <div class="col-sm-3">
+	 </div> -->
+      
+      <div class="col-sm-3">
+        <div class="indent30">
+          <h4>Connect</h4>
+	  
+	  <!-- <div class="row"> -->
+	  <ul class="grove-list">
+	    <li><a href="javascript:if(confirm(%27http://stackoverflow.com/tags/stanford-nlp  \n\nThis file was not retrieved by Teleport Ultra, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?%27))window.location=%27http://stackoverflow.com/tags/stanford-nlp%27" tppabs="http://stackoverflow.com/tags/stanford-nlp">Stack Overflow</a></li>
+	    <li><a href="javascript:if(confirm(%27https://github.com/stanfordnlp/CoreNLP  \n\nThis file was not retrieved by Teleport Ultra, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?%27))window.location=%27https://github.com/stanfordnlp/CoreNLP%27" tppabs="https://github.com/stanfordnlp/CoreNLP">Github</a></li>
+	    <li><a href="javascript:if(confirm(%27https://twitter.com/stanfordnlp  \n\nThis file was not retrieved by Teleport Ultra, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?%27))window.location=%27https://twitter.com/stanfordnlp%27" tppabs="https://twitter.com/stanfordnlp">Twitter</a></li>
+	  </ul>
+	</div>
+      </div>
+      <!--
+	 <div class="row center-block">
+           <a href="https://github.com/stanfordnlp/CoreNLP" class="social github"></a>
+           <a href="https://twitter.com/stanfordnlp" class="social twitter"></a>
+	 </div>
+	 -->
+      
+      <div class="col-sm-3">
+        <div class="indent30">
+	  <h4>Local links</h4>
+	  <div class="small" style="text-align:left">
+	    <a href="javascript:if(confirm(%27https://nlp.stanford.edu/local/nlp_lunch.shtml  \n\nThis file was not retrieved by Teleport Ultra, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27https://nlp.stanford.edu/local/nlp_lunch.shtml%27" tppabs="https://nlp.stanford.edu/local/nlp_lunch.shtml">NLP lunch</a> &middot; 
+            <a href="javascript:if(confirm(%27http://nlp.stanford.edu/read/  \n\nThis file was not retrieved by Teleport Ultra, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://nlp.stanford.edu/read/%27" tppabs="http://nlp.stanford.edu/read/">NLP Reading Group</a> <br>
+            <a href="javascript:if(confirm(%27http://nlp.stanford.edu/seminar/  \n\nThis file was not retrieved by Teleport Ultra, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://nlp.stanford.edu/seminar/%27" tppabs="http://nlp.stanford.edu/seminar/">NLP Seminar</a> &middot;
+            <a href="javascript:if(confirm(%27https://nlp.stanford.edu/local/calendar.shtml  \n\nThis file was not retrieved by Teleport Ultra, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27https://nlp.stanford.edu/local/calendar.shtml%27" tppabs="https://nlp.stanford.edu/local/calendar.shtml">Calendar</a> <br>
+	    <a href="javascript:if(confirm(%27https://nlp.stanford.edu/javanlp/  \n\nThis file was not retrieved by Teleport Ultra, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27https://nlp.stanford.edu/javanlp/%27" tppabs="https://nlp.stanford.edu/javanlp/">JavaNLP</a> (<a href="javascript:if(confirm(%27https://nlp.stanford.edu/nlp/javadoc/javanlp/  \n\nThis file was not retrieved by Teleport Ultra, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27https://nlp.stanford.edu/nlp/javadoc/javanlp/%27" tppabs="https://nlp.stanford.edu/nlp/javadoc/javanlp/">javadocs</a>) &middot;
+            <a href="javascript:if(confirm(%27https://nlp.stanford.edu/local/machines.shtml  \n\nThis file was not retrieved by Teleport Ultra, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27https://nlp.stanford.edu/local/machines.shtml%27" tppabs="https://nlp.stanford.edu/local/machines.shtml">machines</a> <br>
+            <a href="javascript:if(confirm(%27http://ai.stanford.edu/portfolio-view/distinguished-speaker-series  \n\nThis file was not retrieved by Teleport Ultra, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?%27))window.location=%27http://ai.stanford.edu/portfolio-view/distinguished-speaker-series%27" tppabs="http://ai.stanford.edu/portfolio-view/distinguished-speaker-series">AI Speakers</a> &middot;
+            <a href="javascript:if(confirm(%27https://nlp.stanford.edu/local/qa/  \n\nThis file was not retrieved by Teleport Ultra, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27https://nlp.stanford.edu/local/qa/%27" tppabs="https://nlp.stanford.edu/local/qa/">Q&amp;A</a>
+	  </div>
+	</div>
+	
+	
+      </div>      
+      
+    </div>
+  </div>
+</footer>
+
+  <script src="../static/js/vendor/bootstrap/bootstrap.min.js" tppabs="https://nlp.stanford.edu/static/js/vendor/bootstrap/bootstrap.min.js"></script>
+  <script src="../static/js/vendor/modernizr/modernizr.js" tppabs="https://nlp.stanford.edu/static/js/vendor/modernizr/modernizr.js"></script>
+  
+  
+  <script>
+    $('ul.nav > li > a[href="' + document.location.pathname + '"]').parent().addClass('active');
+</script>
+
+
+
+</body>
+</html>
