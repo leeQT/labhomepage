@@ -1,0 +1,829 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+
+<head>
+
+	<meta charset="utf-8">
+	<title>People - The Stanford Natural Language Processing Group </title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width">
+
+
+
+	<!-- Bootstrap styles -->
+	<link rel="stylesheet" href="../static/css/vendor/bootstrap/bootstrap.css" tppabs="https://nlp.stanford.edu/static/css/vendor/bootstrap/bootstrap.css">
+
+	<!-- Glyphicons -->
+	<link rel="stylesheet" href="../static/css/vendor/glyphicons/glyphicons.css" tppabs="https://nlp.stanford.edu/static/css/vendor/glyphicons/glyphicons.css">
+	<link rel="stylesheet" href="../static/css/vendor/glyphicons/filetypes.css" tppabs="https://nlp.stanford.edu/static/css/vendor/glyphicons/filetypes.css">
+	<link rel="stylesheet" href="../static/css/vendor/glyphicons/social.css" tppabs="https://nlp.stanford.edu/static/css/vendor/glyphicons/social.css">
+
+	<!-- Google Webfonts -->
+	<link href="../../fonts.googleapis.com/css-family=Open+Sans-400,700,600.css" tppabs="https://fonts.googleapis.com/css?family=Open+Sans:400,700,600"
+	 rel='stylesheet' type='text/css'>
+
+	<!-- fontawesome -->
+	<link rel="stylesheet" href="../../maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" tppabs="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+	<link rel="stylesheet" href="../static/css/bootstrap-markdown.min.css" tppabs="https://nlp.stanford.edu/static/css/bootstrap-markdown.min.css"
+	 type="text/css">
+
+	<!-- LayerSlider styles -->
+	<link rel="stylesheet" href="../static/css/vendor/layerslider/layerslider.css" tppabs="https://nlp.stanford.edu/static/css/vendor/layerslider/layerslider.css"
+	 type="text/css">
+
+	<!-- Grove Styles (switch for different color schemes, e.g. "styles-cleanblue.css") -->
+	<link rel="stylesheet" href="../static/css/styles-cleanred.css" tppabs="https://nlp.stanford.edu/static/css/styles-cleanred.css"
+	 id="grove-styles">
+
+	<link rel="stylesheet" href="../../cdn.datatables.net/1.10.7/css/jquery.dataTables.min.css" tppabs="https://cdn.datatables.net/1.10.7/css/jquery.dataTables.min.css"
+	 type="text/css">
+
+	<!-- table highlighting -->
+	<!--<link rel="stylesheet" href="//cdn.datatables.net/plug-ins/1.10.7/features/searchHighlight/dataTables.searchHighlight.css">-->
+
+	<!-- site-wide custom css -->
+	<link rel="stylesheet" href="../static/css/nlp.css" tppabs="https://nlp.stanford.edu/static/css/nlp.css" id="nlp-styles">
+
+
+
+	<!--[if lt IE 9]>
+        <link rel="stylesheet" href="css/ie8.css" tppabs="https://nlp.stanford.edu/people/css/ie8.css">        
+        <script src="js/vendor/google/html5-3.6-respond-1.1.0.min.js" tppabs="https://nlp.stanford.edu/people/js/vendor/google/html5-3.6-respond-1.1.0.min.js"></script>
+    <![endif]-->
+
+	<script src="../../ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" tppabs="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script>window.jQuery || document.write('<script src="static/js/vendor/jquery/jquery-1.9.1.min.js"/*tpa=https://nlp.stanford.edu/people/static/js/vendor/jquery/jquery-1.9.1.min.js*/><\/script>')</script>
+	<!-- jQuery with jQuery Easing, and jQuery Transit JS -->
+
+	<!-- LayerSlider from Kreatura Media with Transitions -->
+	<script src="../static/js/vendor/layerslider/greensock.js" tppabs="https://nlp.stanford.edu/static/js/vendor/layerslider/greensock.js"
+	 type="text/javascript"></script>
+	<script src="../static/js/vendor/layerslider/layerslider.transitions.js" tppabs="https://nlp.stanford.edu/static/js/vendor/layerslider/layerslider.transitions.js"
+	 type="text/javascript"></script>
+	<script src="../static/js/vendor/layerslider/layerslider.kreaturamedia.jquery.js" tppabs="https://nlp.stanford.edu/static/js/vendor/layerslider/layerslider.kreaturamedia.jquery.js"
+	 type="text/javascript"></script>
+
+	<!-- Bootstrap Markdown for Blog editing-->
+	<script src="../static/js/markdown.js" tppabs="https://nlp.stanford.edu/static/js/markdown.js" type="text/javascript"></script>
+	<script src="../static/js/to-markdown.js" tppabs="https://nlp.stanford.edu/static/js/to-markdown.js" type="text/javascript"></script>
+	<script src="../static/js/bootstrap-markdown.js" tppabs="https://nlp.stanford.edu/static/js/bootstrap-markdown.js" type="text/javascript"></script>
+
+	<!-- Grove Layerslider initiation script -->
+	<script src="../static/js/grove-slider.js" tppabs="https://nlp.stanford.edu/static/js/grove-slider.js" type="text/javascript"></script>
+
+	<!-- DataTables.net for publications -->
+	<script src="../../cdn.datatables.net/1.10.7/js/jquery.dataTables.min.js" tppabs="https://cdn.datatables.net/1.10.7/js/jquery.dataTables.min.js"></script>
+
+	<!-- highlighting for tables -->
+	<script src="../../cdn.datatables.net/plug-ins/1.10.7/features/searchHighlight/dataTables.searchHighlight.min.js" tppabs="https://cdn.datatables.net/plug-ins/1.10.7/features/searchHighlight/dataTables.searchHighlight.min.js"></script>
+	<script src="../../bartaz.github.io/sandbox.js/jquery.highlight.js" tppabs="https://bartaz.github.io/sandbox.js/jquery.highlight.js"></script>
+
+	<!-- fancy select boxes -->
+	<link href="../../cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/css/select2.min.css" tppabs="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/css/select2.min.css"
+	 rel="stylesheet" />
+	<script src="../../cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/js/select2.min.js" tppabs="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/js/select2.min.js"></script>
+
+</head>
+
+<body>
+
+	<!-- navigation -->
+	<header>
+		<nav class="navbar navbar-default grove-navbar">
+			<div class="container">
+				<div class="navbar-header">
+					<a href="#" class="grove-toggle collapsed" data-toggle="collapse" data-target=".grove-nav">
+						<i class="glyphicons show_lines"></i>
+					</a>
+					<img class="navbar-brand navbar-left hidden-xs" src="../static/img/logos/nlp-logo-small.png" tppabs="https://nlp.stanford.edu/static/img/logos/nlp-logo-small.gif"
+					 alt="">
+					<a class="navbar-brand navbar-left" href="../index.htm" tppabs="https://nlp.stanford.edu/">
+						<h3 class="hidden-xs">The Tsinghua Artificial Intelligence Group</h3>
+						<h3 class="hidden-sm hidden-md hidden-lg hidden-xl">The Tsinghua AI Group</h3>
+					</a>
+				</div>
+
+				<div class="navbar-collapse grove-nav collapse">
+					<ul class="nav navbar-nav">
+						<li>
+							<a href="../people/index.htm">people</a>
+						</li>
+						<li>
+							<a href="../resrc/index.htm">research</a>
+						</li>
+						<li>
+							<a href="../pubs/index.htm">publications</a>
+						</li>
+						<li>
+							<a href="../blog/index.htm">news</a>
+						</li>
+					</ul>
+				</div>
+				<!-- /.navbar-collapse -->
+			</div>
+		</nav>
+	</header>
+
+
+
+	<div class="widewrapper">
+		<div id="body_content">
+
+			<div class="widewrapper pagetitle">
+				<div class="container">
+					<h1>People</h1>
+				</div>
+			</div>
+
+
+			<div class="widewrapper weak-highlight">
+				<div class="container content">
+					<!--<div class="headline top">People</div>-->
+
+					<!--<div class="col-sm-12 col-md-12 col-lg-12 col-xl-12" style="border-right: 1px solid #ccc;">-->
+					<div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+						<!--<img src="/static/img/group-photo.jpg" class="img-responsive img-rounded">-->
+
+						<div class="showroom-controls">
+							<div class="links">Professors</div>
+						</div>
+
+						<div class="row">
+							<div class="col-sm-4 team-member">
+								<img style="margin-left:auto;margin-right:auto;width:auto;height:auto;max-height:150px;max-width:150px" src="yue.jpg" class="img-responsive img-rounded">
+								<div class="description" style="border-radius: 10px">
+									<a href="http://www.gaoyue.org/">
+										<h4>Yue Gao</h4>
+									</a>
+									<p class="clean">
+										statistical natural language processing, natural language understanding and deep learning
+									</p>
+								</div>
+							</div>
+						</div>
+
+						<br/>
+						<div class="showroom-controls">
+							<div class="links">PhD Students</div>
+						</div>
+
+
+						<div class="row">
+
+
+							<div class="col-sm-3 team-member">
+								<!--<img style="margin-left:auto;margin-right:auto;width:150px;height:150px;" src="/static/img/people/placeholder.jpg" class="img-responsive img-rounded">-->
+								<img style="margin-left:auto;margin-right:auto;width:auto;height:auto;max-height:80px;max-width:80px" src="yue.jpg" class="img-responsive img-rounded">
+								<div style="text-align:center">
+									<a href="javascript:if(confirm(%27https://nlp.stanford.edu/~urvashik/  \n\nThis file was not retrieved by Teleport Ultra, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27https://nlp.stanford.edu/~urvashik/%27"
+									 tppabs="https://nlp.stanford.edu/~urvashik/">
+
+										<b>Urvashi Khandelwal</b>
+
+									</a>
+
+									<br/> Computer Science
+								</div>
+								<br/>
+							</div>
+
+
+							<div class="col-sm-3 team-member">
+								<img style="margin-left:auto;margin-right:auto;width:auto;height:auto;max-height:80px;max-width:80px" src="yue.jpg" class="img-responsive img-rounded">
+								<div style="text-align:center">
+
+									<a href="javascript:if(confirm(%27https://people.stanford.edu/fereshte  \n\nThis file was not retrieved by Teleport Ultra, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?%27))window.location=%27https://people.stanford.edu/fereshte%27"
+									 tppabs="https://people.stanford.edu/fereshte">
+										<b>Fereshte Khani</b>
+									</a>
+									<br/> Computer Science
+								</div>
+								<br/>
+							</div>
+
+
+							<div class="col-sm-3 team-member">
+								<img style="margin-left:auto;margin-right:auto;width:auto;height:auto;max-height:80px;max-width:80px" src="yue.jpg" class="img-responsive img-rounded">
+								<div style="text-align:center">
+									<b>Yiwei Luo</b>
+									<br/> Linguistics
+								</div>
+								<br/>
+							</div>
+
+
+
+							<div class="col-sm-3 team-member">
+								<img style="margin-left:auto;margin-right:auto;width:auto;height:auto;max-height:80px;max-width:80px" src="yue.jpg" class="img-responsive img-rounded">
+								<div style="text-align:center">
+
+									<a href="javascript:if(confirm(%27http://stanford.edu/~ashwinpp/  \n\nThis file was not retrieved by Teleport Ultra, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?%27))window.location=%27http://stanford.edu/~ashwinpp/%27"
+									 tppabs="http://stanford.edu/~ashwinpp/">
+										<b>Ashwin Paranjape</b>
+									</a>
+									<br/> Computer Science
+								</div>
+								<br/>
+							</div>
+
+
+							<div class="col-sm-3 team-member">
+								<img style="margin-left:auto;margin-right:auto;width:auto;height:auto;max-height:80px;max-width:80px" src="yue.jpg" class="img-responsive img-rounded">
+								<div style="text-align:center">
+
+									<a href="javascript:if(confirm(%27http://cs.stanford.edu/~ppasupat/  \n\nThis file was not retrieved by Teleport Ultra, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?%27))window.location=%27http://cs.stanford.edu/~ppasupat/%27"
+									 tppabs="http://cs.stanford.edu/~ppasupat/">
+										<b>Panupong Pasupat</b>
+									</a>
+									<br/> Computer Science
+								</div>
+								<br/>
+							</div>
+
+
+
+
+							<div class="col-sm-3 team-member">
+								<img style="margin-left:auto;margin-right:auto;width:auto;height:auto;max-height:80px;max-width:80px" src="yue.jpg" class="img-responsive img-rounded">
+								<div style="text-align:center">
+
+									<a href="javascript:if(confirm(%27http://nlp.stanford.edu/robvoigt  \n\nThis file was not retrieved by Teleport Ultra, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://nlp.stanford.edu/robvoigt%27"
+									 tppabs="http://nlp.stanford.edu/robvoigt">
+
+										<b>Rob Voigt</b>
+
+									</a>
+
+									<br/> Linguistics
+								</div>
+								<br/>
+							</div>
+						</div>
+
+
+
+
+						<br/>
+						<div class="showroom-controls">
+							<div class="links">Masters Students</div>
+						</div>
+
+						<div class="row">
+
+							<div class="col-sm-3 team-member">
+								<img style="margin-left:auto;margin-right:auto;width:auto;height:auto;max-height:80px;max-width:80px" src="yue.jpg" class="img-responsive img-rounded">
+								<div style="text-align:center">
+
+									<a href="javascript:if(confirm(%27http://stanford.edu/~meric/  \n\nThis file was not retrieved by Teleport Ultra, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?%27))window.location=%27http://stanford.edu/~meric/%27"
+									 tppabs="http://stanford.edu/~meric/">
+
+										<b>Mihail Eric</b>
+
+									</a>
+
+									<br/> Computer Science
+								</div>
+								<br/>
+							</div>
+
+
+							<div class="col-sm-3 team-member">
+								<img style="margin-left:auto;margin-right:auto;width:auto;height:auto;max-height:80px;max-width:80px" src="yue.jpg" class="img-responsive img-rounded">
+								<div style="text-align:center">
+
+									<a href="javascript:if(confirm(%27http://stanford.edu/~meric/  \n\nThis file was not retrieved by Teleport Ultra, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?%27))window.location=%27http://stanford.edu/~meric/%27"
+									 tppabs="http://stanford.edu/~meric/">
+
+										<b>Mihail Eric</b>
+
+									</a>
+
+									<br/> Computer Science
+								</div>
+								<br/>
+							</div>
+
+
+							<div class="col-sm-3 team-member">
+								<img style="margin-left:auto;margin-right:auto;width:auto;height:auto;max-height:80px;max-width:80px" src="yue.jpg" class="img-responsive img-rounded">
+								<div style="text-align:center">
+
+									<a href="javascript:if(confirm(%27http://stanford.edu/~meric/  \n\nThis file was not retrieved by Teleport Ultra, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?%27))window.location=%27http://stanford.edu/~meric/%27"
+									 tppabs="http://stanford.edu/~meric/">
+
+										<b>Mihail Eric</b>
+
+									</a>
+
+									<br/> Computer Science
+								</div>
+								<br/>
+							</div>
+
+
+						</div>
+
+						<br/>
+						<div class="showroom-controls">
+							<div class="links">Undergraduates</div>
+						</div>
+
+						<div class="row">
+
+							<div class="col-sm-3 team-member">
+								<img style="margin-left:auto;margin-right:auto;width:auto;height:auto;max-height:80px;max-width:80px" src="yue.jpg" class="img-responsive img-rounded">
+								<div style="text-align:center">
+
+									<b>Sam Ginn</b>
+
+									<br/> Computer Science
+								</div>
+								<br/>
+							</div>
+
+
+						</div>
+
+
+						<br/>
+						<div class="row">
+							<div class="col-sm-6">
+								<div class="showroom-controls">
+									<div class="links">Staff</div>
+								</div>
+								<div class="row">
+									<div class="col-sm-6 team-member">
+										<div style="text-align:left">
+											<b>Jason Bolton</b>
+											<br/> Research Programmer
+										</div>
+										<br/>
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-6">
+								<div class="showroom-controls">
+									<div class="links">Visitors</div>
+								</div>
+								<div class="row">
+
+									<div class="col-sm-6 team-member">
+										<div style="text-align:left">
+											<b>
+												<a href="javascript:if(confirm(%27https://www.kth.se/profile/jussi  \n\nThis file was not retrieved by Teleport Ultra, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?%27))window.location=%27https://www.kth.se/profile/jussi%27"
+												 tppabs="https://www.kth.se/profile/jussi">Jussi Karlgren</a>
+											</b>
+											<br/> Visiting Scholar
+										</div>
+										<br/>
+									</div>
+									<div class="col-sm-6 team-member">
+										<div style="text-align:left">
+										</div>
+										<br/>
+									</div>
+								</div>
+							</div>
+
+						</div>
+					</div>
+
+					<br>
+
+
+					<div class="showroom-controls">
+						<div class="links">Alumni</div>
+					</div>
+
+					<div class="row">
+
+						<div class="col-sm-12 team-member" style="margin-bottom: 10px">
+							<u>Research Scientists</u>
+							<br/>
+
+							<div class="col-sm-12 team-member">
+								<div class="row">
+
+									<div class="col-sm-5">
+
+										<a href="javascript:if(confirm(%27http://www.surdeanu.info/mihai/  \n\nThis file was not retrieved by Teleport Ultra, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.surdeanu.info/mihai/%27"
+										 tppabs="http://www.surdeanu.info/mihai/">
+
+											Mihai Surdeanu</a>,
+										<i>Computer Science</i>
+									</div>
+
+									<div class="col-sm-7">
+										Now Associate Professor, School of Information: Science, Technology and the Arts (SISTA) at the University of Arizona
+									</div>
+
+								</div>
+
+
+							</div>
+							<br/>
+
+							<div class="col-sm-12 team-member">
+								<div class="row">
+
+									<div class="col-sm-5">
+
+										<a href="javascript:if(confirm(%27http://www-nlp.stanford.edu/~mgalley  \n\nThis file was not retrieved by Teleport Ultra, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?%27))window.location=%27http://www-nlp.stanford.edu/~mgalley%27"
+										 tppabs="http://www-nlp.stanford.edu/~mgalley">
+
+											Michel Galley</a>,
+										<i>Computer Science</i>
+									</div>
+
+									<div class="col-sm-7">
+										Now at Microsoft Research
+									</div>
+
+								</div>
+
+
+							</div>
+							<br/>
+
+							<div class="col-sm-12 team-member">
+								<div class="row">
+
+									<div class="col-sm-5">
+
+										<a href="javascript:if(confirm(%27http://www.cs.stanford.edu/~nmramesh/  \n\nThis file was not retrieved by Teleport Ultra, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.cs.stanford.edu/~nmramesh/%27"
+										 tppabs="http://www.cs.stanford.edu/~nmramesh/">
+
+											Ramesh Nallapati</a>,
+										<i>Computer Science</i>
+									</div>
+
+									<div class="col-sm-7">
+										Now at IBM Research (previously at SRI)
+									</div>
+
+								</div>
+
+
+							</div>
+							<br/>
+
+						</div>
+						<br/>
+
+						<div class="col-sm-12 team-member" style="margin-bottom: 10px">
+							<u>Ph.D. Students</u>
+							<br/>
+
+							<div class="col-sm-12 team-member">
+								<div class="row">
+
+									<div class="col-sm-5">
+
+										<a href="javascript:if(confirm(%27http://web.stanford.edu/~jiweil/  \n\nThis file was not retrieved by Teleport Ultra, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?%27))window.location=%27http://web.stanford.edu/~jiweil/%27"
+										 tppabs="http://web.stanford.edu/~jiweil/">
+
+											Jiwei Li</a>,
+										<i>Computer Science</i>
+									</div>
+
+									<div class="col-sm-7">
+										shannon.ai
+									</div>
+
+								</div>
+
+
+							</div>
+							<br/>
+
+							<div class="col-sm-12 team-member">
+								<div class="row">
+
+									<div class="col-sm-5">
+
+										<a href="javascript:if(confirm(%27http://www.sidaw.xyz/  \n\nThis file was not retrieved by Teleport Ultra, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sidaw.xyz/%27"
+										 tppabs="http://www.sidaw.xyz/">
+
+											Sida Wang</a>,
+										<i>Computer Science</i>
+									</div>
+
+									<div class="col-sm-7">
+										Now research instructor at Princeton
+									</div>
+
+								</div>
+
+
+							</div>
+							<br/>
+
+
+
+						</div>
+						<br/>
+
+						<div class="col-sm-12 team-member" style="margin-bottom: 10px">
+							<u>Undergrad Students</u>
+							<br/>
+
+
+							<div class="col-sm-12 team-member">
+								<div class="row">
+
+									<div class="col-sm-5">
+
+										<a href="">
+
+											Reginald Long</a>,
+										<i>Computer Science</i>
+									</div>
+
+								</div>
+
+
+							</div>
+							<br/>
+
+							<div class="col-sm-12 team-member">
+								<div class="row">
+
+									<div class="col-sm-5">
+
+										<a href="">
+
+											Keenon Werling</a>,
+										<i>Computer Science</i>
+									</div>
+
+									<div class="col-sm-7">
+										eloquent.ai
+									</div>
+
+								</div>
+
+
+							</div>
+							<br/>
+
+						</div>
+						<br/>
+
+						<div class="col-sm-12 team-member" style="margin-bottom: 10px">
+							<u>Research Programmers</u>
+							<br/>
+
+							<div class="col-sm-12 team-member">
+								<div class="row">
+
+									<div class="col-sm-5">
+
+										<a href="javascript:if(confirm(%27https://www.facebook.com/chris.cox  \n\nThis file was not retrieved by Teleport Ultra, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?%27))window.location=%27https://www.facebook.com/chris.cox%27"
+										 tppabs="https://www.facebook.com/chris.cox">
+
+											Chris(topher) Cox</a>,
+										<i>Symbolic Systems. 2004-2005</i>
+									</div>
+
+									<div class="col-sm-7">
+										Now Chief Product Officer, Facebook
+									</div>
+
+								</div>
+
+
+							</div>
+							<br/>
+
+							<div class="col-sm-12 team-member">
+								<div class="row">
+
+									<div class="col-sm-5">
+
+										<a href="javascript:if(confirm(%27https://sites.google.com/site/annanrafferty/  \n\nThis file was not retrieved by Teleport Ultra, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?%27))window.location=%27https://sites.google.com/site/annanrafferty/%27"
+										 tppabs="https://sites.google.com/site/annanrafferty/">
+
+											Anna Rafferty</a>,
+										<i>Computer Science. 2006-2008</i>
+									</div>
+
+									<div class="col-sm-7">
+										Now Assistant Profesor of Computer Science, Carleton College. Was Ph.D. student, Computer Science, UC Berkeley (boo!)
+									</div>
+
+								</div>
+
+
+							</div>
+							<br/>
+
+							<div class="col-sm-12 team-member">
+								<div class="row">
+
+									<div class="col-sm-5">
+
+										<a href="javascript:if(confirm(%27https://www.linkedin.com/in/john-bauer-b3883b60  \n\nThis file was not retrieved by Teleport Ultra, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?%27))window.location=%27https://www.linkedin.com/in/john-bauer-b3883b60%27"
+										 tppabs="https://www.linkedin.com/in/john-bauer-b3883b60">
+
+											John Bauer</a>,
+										<i>Computer Science. 2010-2014</i>
+									</div>
+
+									<div class="col-sm-7">
+										Now Research Programmer, Vicarious AI
+									</div>
+
+								</div>
+
+
+							</div>
+							<br/>
+
+						</div>
+						<br/>
+
+						<div class="col-sm-12 team-member" style="margin-bottom: 10px">
+							<u>Visiting Professors</u>
+							<br/>
+
+
+							<div class="col-sm-12 team-member">
+								<div class="row">
+
+									<div class="col-sm-5">
+
+										<a href="javascript:if(confirm(%27http://clcl.unige.ch/  \n\nThis file was not retrieved by Teleport Ultra, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?%27))window.location=%27http://clcl.unige.ch/%27"
+										 tppabs="http://clcl.unige.ch/">
+
+											Paula Merlo</a>,
+										<i>Linguistics and Computer Science</i>
+									</div>
+
+									<div class="col-sm-7">
+										Visiting from University of Geneva
+									</div>
+
+								</div>
+
+
+							</div>
+							<br/>
+
+							<div class="col-sm-12 team-member">
+								<div class="row">
+
+									<div class="col-sm-5">
+
+										<a href="javascript:if(confirm(%27https://sites.google.com/site/oyamasatoshi/  \n\nThis file was not retrieved by Teleport Ultra, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?%27))window.location=%27https://sites.google.com/site/oyamasatoshi/%27"
+										 tppabs="https://sites.google.com/site/oyamasatoshi/">
+
+											Satoshi Oyama</a>,
+										<i>Computer Science</i>
+									</div>
+
+									<div class="col-sm-7">
+										Visiting from Kyoto University
+									</div>
+
+								</div>
+
+
+							</div>
+							<br/>
+
+							<div class="col-sm-12 team-member">
+								<div class="row">
+
+									<div class="col-sm-5">
+
+										<a href="javascript:if(confirm(%27http://www.usfca.edu/Faculty/Cindi_Thompson/  \n\nThis file was not retrieved by Teleport Ultra, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.usfca.edu/Faculty/Cindi_Thompson/%27"
+										 tppabs="http://www.usfca.edu/Faculty/Cindi_Thompson/">
+
+											Cindi Thompson</a>,
+										<i>Computer Science</i>
+									</div>
+
+									<div class="col-sm-7">
+										Visiting from University of Utah
+									</div>
+
+								</div>
+
+
+							</div>
+							<br/>
+
+						</div>
+						<br/>
+
+					</div>
+				</div>
+
+			</div>
+
+
+		</div>
+
+
+		<!--
+    <div class="widewrapper strong-highlight">
+      <div class="container calltoaction">
+        <span>Click on this button to offer us high-paying and world-changing jobs.</span>
+        <a href="#" class="btn btn-grove-one btn-xlg btn-bold">IT'S THE RIGHT CHOICE</a>
+      </div>
+    </div>
+    -->
+
+
+	</div>
+	</div>
+
+	<footer class="widewrapper footer">
+		<div class="container">
+
+			<div class="row footer">
+
+				<div class="col-sm-3">
+					<h4>Tsinghua AI Group</h4>
+					School of Software
+					<br> Tsinghua, Beijing 100084
+					<br>
+					<a href="http://www.tsinghua.edu.cn/publish/newthu/newthu_cnt/intothu/intothu-3-3.html">Directions</a>
+				</div>
+
+
+				<div class="col-sm-3">
+					<div class="indent30">
+						<h4>Affiliated Groups</h4>
+						<ul class="grove-list">
+							<li>
+								<a href="https://www.google.com/">XXXXXXX</a>
+							</li>
+							<li>
+								<a href="https://www.google.com/">XXXXX</a>
+							</li>
+							<li>
+								<a href="https://www.google.com/">XX</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+
+
+
+				<div class="col-sm-3">
+					<div class="indent30">
+						<h4>Connect</h4>
+						<ul class="grove-list">
+							<li>
+								<a href="https://www.google.com/">Github</a>
+							</li>
+							<li>
+								<a href="https://www.google.com/">Twitter</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+
+
+				<div class="col-sm-3">
+					<div class="indent30">
+						<h4>Local links</h4>
+						<div class="small" style="text-align:left">
+							<a href="https://www.google.com/">AI lunch</a> ·
+							<a href="https://www.google.com/">AI Reading Group</a>
+							<br>
+							<a href="https://www.google.com/">AI Seminar</a> ·
+							<a href="https://www.google.com/">Calendar</a>
+							<br>
+							<a href="https://www.google.com/">AI Speakers</a> ·
+							<a href="https://www.google.com/">Q&amp;A</a>
+						</div>
+					</div>
+
+
+				</div>
+
+			</div>
+		</div>
+	</footer>
+
+	<script src="../static/js/vendor/bootstrap/bootstrap.min.js" tppabs="https://nlp.stanford.edu/static/js/vendor/bootstrap/bootstrap.min.js"></script>
+	<script src="../static/js/vendor/modernizr/modernizr.js" tppabs="https://nlp.stanford.edu/static/js/vendor/modernizr/modernizr.js"></script>
+
+
+	<script>
+		$('ul.nav > li > a[href="' + document.location.pathname + '"]').parent().addClass('active');
+	</script>
+
+
+
+</body>
+
+</html>
