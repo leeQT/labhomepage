@@ -1,0 +1,24 @@
+# 其他的翻译原文本中，如果遇到以下词语，请统一翻译。
+
+1.Research
+2.Computer Vision
+3.3D Object Recognition and Retrieval
+4.Activity Recognition
+5.Computer Vision in Social Media
+6.Medical Image Analysis
+7.Diagnosis of Brain Degenerated Disease
+8.High-Order Brain Network
+9.Cardiovascular Disease Diagnosis
+10.Medical Image Segmentation
+11.Machine Learning
+12.Graph/Hypergraph Learning
+13.Metric Learning
+
+-----------
+
+14.Tsinghua University - Yue's Group
+15.home
+16.people
+17.research
+18.publications
+19.news
