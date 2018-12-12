@@ -1,24 +1,24 @@
-# �����ķ���ԭ�ı��У�����������´����ͳһ���롣
+# 其他的翻译原文本中，如果遇到以下词语，请统一翻译。
 
-1.Research
-2.Computer Vision
-3.3D Object Recognition and Retrieval
-4.Activity Recognition
-5.Computer Vision in Social Media
-6.Medical Image Analysis
-7.Diagnosis of Brain Degenerated Disease
-8.High-Order Brain Network
-9.Cardiovascular Disease Diagnosis
-10.Medical Image Segmentation
-11.Machine Learning
-12.Graph/Hypergraph Learning
-13.Metric Learning
+1.Research                                研究
+2.Computer Vision                         计算机视觉
+3.3D Object Recognition and Retrieval     三维物体识别与检索
+4.Activity Recognition                    动作识别
+5.Computer Vision in Social Media         社交媒体与计算机视觉
+6.Medical Image Analysis                  医疗影像分析
+7.Diagnosis of Brain Degenerated Disease  脑退化疾病诊疗
+8.High-Order Brain Network                高维度的脑网络
+9.Cardiovascular Disease Diagnosis        心血管疾病诊疗
+10.Medical Image Segmentation             医疗影像分割
+11.Machine Learning                       机器学习
+12.Graph/Hypergraph Learning              超图学习
+13.Metric Learning                        度量学习
 
 -----------
 
-14.Tsinghua University - Yue's Group
-15.home
-16.people
-17.research
-18.publications
-19.news
+14.Tsinghua University - Yue's Group      清华大学 Yue's Group
+15.home                                   主页
+16.people                                 团队
+17.research                               研究方向
+18.publications                           论文与出版物
+19.news                                   最新资讯
